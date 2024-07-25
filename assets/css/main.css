@@ -38,6 +38,13 @@ footer, header, hgroup, menu, nav, section {
 background-color: #1e30f3;;
 border-color: #6c757d;
 }
+.btn-custom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	 /* Adjust height as needed */
+}
+
 
 body {
 	line-height: 1;
@@ -3877,6 +3884,9 @@ input, select, textarea {
 			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
+			}
+			.content p {
+				text-align: left;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .inner {
