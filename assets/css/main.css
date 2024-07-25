@@ -34,16 +34,19 @@ footer, header, hgroup, menu, nav, section {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-.btn-secondary {
-background-color: #1e30f3;;
-border-color: #6c757d;
+.btn-custom  {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically, if needed */
+    gap: 20px; /* Space between the buttons */
+    padding: 20px; /* Optional padding for the container */
+	background-color: #1e30f3;
+	transition: transform 0.2s;
 }
-.btn-custom {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	 /* Adjust height as needed */
+.btn:hover {
+    transform: scale(1.05); /* Simple hover effect */
 }
+
 
 
 body {
